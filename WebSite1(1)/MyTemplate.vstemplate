@@ -1,0 +1,111 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WebSite1(1)</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WebSite1(1)</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="css" TargetFolderName="css">
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.css">bootstrap-grid.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.css.map">bootstrap-grid.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.min.css">bootstrap-grid.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.min.css.map">bootstrap-grid.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.css">bootstrap-reboot.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.css.map">bootstrap-reboot.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.min.css">bootstrap-reboot.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.min.css.map">bootstrap-reboot.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-responsive.min.css">bootstrap-responsive.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css.map">bootstrap.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css.map">bootstrap.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="menu.css">menu.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
+      <Folder Name="img" TargetFolderName="img">
+        <Folder Name="baralho" TargetFolderName="baralho">
+          <Folder Name="copas" TargetFolderName="copas">
+            <ProjectItem ReplaceParameters="false" TargetFileName="10 de copa.png">10 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="2 de copa.png">2 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="3 de copa.png">3 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="4 de copa.png">4 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="5 de copa.png">5 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="6 de copa.png">6 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="7 de copa.png">7 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="8 de copa.png">8 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="9 de copa.png">9 de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="a de copa.png">a de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="dama de copa.png">dama de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="rei de copa.png">rei de copa.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="valete de copa.png">valete de copa.png</ProjectItem>
+          </Folder>
+          <Folder Name="espadas" TargetFolderName="espadas">
+            <ProjectItem ReplaceParameters="false" TargetFileName="10 de espada.png">10 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="2 de espada.png">2 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="3 de espada.png">3 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="4 de espada.png">4 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="5 de espada.png">5 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="6 de espada.png">6 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="7 de espada.png">7 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="8 de espada.png">8 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="9 de espada.png">9 de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="a de espada.png">a de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="dama de espada.png">dama de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="rei de espada.png">rei de espada.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="valete de espada.png">valete de espada.png</ProjectItem>
+          </Folder>
+          <Folder Name="ouro" TargetFolderName="ouro">
+            <ProjectItem ReplaceParameters="false" TargetFileName="10 de ouro.png">10 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="2 de ouro.png">2 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="3 de ouro.png">3 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="4 de ouro.png">4 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="5 de ouro.png">5 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="6 de ouro.png">6 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="7 de ouro.png">7 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="8 de ouro.png">8 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="9 de ouro.png">9 de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="a de ouro.png">a de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="dama de ouro.png">dama de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="rei de ouro.png">rei de ouro.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="valete de ouro.png">valete de ouro.png</ProjectItem>
+          </Folder>
+          <Folder Name="paus" TargetFolderName="paus">
+            <ProjectItem ReplaceParameters="false" TargetFileName="10 de paus.png">10 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="2 de paus.png">2 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="3 de paus.png">3 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="4 de paus.png">4 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="5 de paus.png">5 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="6 de paus.png">6 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="7 de paus.png">7 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="8 de paus.png">8 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="9 de paus.png">9 de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="a de paus.png">a de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="dama de paus.jpg">dama de paus.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="rei de paus.png">rei de paus.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="valete de paus.png">valete de paus.png</ProjectItem>
+          </Folder>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="global-poker-ic.png">global-poker-ic.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings-white.png">glyphicons-halflings-white.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="glyphicons-halflings.png">glyphicons-halflings.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="mesa.jpg">mesa.jpg</ProjectItem>
+      </Folder>
+      <Folder Name="js" TargetFolderName="js">
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.js">bootstrap.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js">bootstrap.min.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
